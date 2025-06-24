@@ -22,6 +22,8 @@ default_account_name = "anvil1"
 [networks.sepolia]
 url = "https://ethereum-sepolia-rpc.publicnode.com"
 chain_id = 11155111
+default_account_name = "account1"
+save_to_db = true
 
 [networks.zksync-sepolia]
 url = "https://sepolia.era.zksync.dev"
